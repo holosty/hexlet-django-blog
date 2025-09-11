@@ -1,5 +1,12 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+    <ul>
+        <li><a href="/about/">О нас</a></li>
+        <li><a href="/articles/">Статьи</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
 <h1>Hello, {{ who }}!</h1>
-<p>
-    <a href="/about/">О компании</a>
-    <a href="/articles/">Статьи</a>
-</p>
+{% endblock %}
